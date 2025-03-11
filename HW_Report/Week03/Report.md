@@ -47,3 +47,14 @@ Simple exercise to show media and some useless input box, using:
 連奕維 found that http://www.bsaila.com.tw/cups/list.aspx?cid=1 is one example that can be refactored.
 
 Final deal: Volleyball is 連奕維 and 游立宇's interest, we plan to refactor the old site. The main purpose of the site is make hosting a platform for saling sport contest, especially team contest. 
+
+### Some Refactor Contents
+
+- Beautify UI (event photos)
+- Optimize Search Engine
+- Make the service much more around the user
+- Add some message feature to solve some rush event contact (maybe distributed storage)
+
+## Some Advices by TAs
+
+Please leave your precious suggestions...
