@@ -28,3 +28,22 @@ Simple exercise to show media and some useless input box, using:
 - Button
 - Video
 - Audio
+
+## Teamwork: Team 26
+
+游立宇 b10902007: 1/3 Page thoughts, CSS design
+楊慶彥 b10902017: 1/3 Git Setup, Html design
+連奕維 b10902041: 1/3 Html+CSS implementation, Final Project Ideation
+
+## Final Project Meeting Notes
+
+連奕維 has three thoughts of ideation:
+1. Refactor old website and add new features based on demands
+2. Packing some computer science cli tools to UI services(Like LLM service, Workstation Monitor)
+3. Gain data by streaming free api or free database data, reproduce service to sell the data.
+
+楊慶彥 thinks that the project core is more important, seeking for the subject of the project.
+
+連奕維 found that http://www.bsaila.com.tw/cups/list.aspx?cid=1 is one example that can be refactored.
+
+Final deal: Volleyball is 連奕維 and 游立宇's interest, we plan to refactor the old site. The main purpose of the site is make hosting a platform for saling sport contest, especially team contest. 
