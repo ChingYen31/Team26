@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yi-Wei Lien - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <button class="nav-btn" data-section="portfolio">Portfolio</button>
+            <button class="nav-btn" data-section="media">Media</button>
+            <button class="nav-btn" data-section="feedback">Feedback</button>
+        </nav>
+
+        <div id="portfolio" class="section active">
+            <h1 id="dynamic-name"></h1>
+            <p>B.S. Computer Science, National Taiwan University (2021-2025)</p>
+            <p>M.S. Computer Science, National Taiwan University (2025-2027, Accepted)</p>
+
+            <h2>Work Experience</h2>
+            <input type="text" id="search-experience" placeholder="Filter by company or role...">
+            <div id="experience-list">
+                <p><strong>Backend Development Engineer Intern</strong><br>Cmoney, New Taipei City, Taiwan | July 2024 - Present</p>
+                <p>Refactored APIs for a product with over 7 million downloads and worked on a distributed computing system.</p>
+
+                <p><strong>Research Assistant</strong><br>Academia Sinica, Taipei | Sep 2023 - June 2024</p>
+                <p>Developed a dataset generation system producing over 200 million log entries.</p>
+
+                <p><strong>Static Frontend Site Manager</strong><br>Chinese Geoscience Union, Taiwan | July 2022 - July 2023</p>
+                <p>Maintained CGU & TAO websites with hundreds of visitors.</p>
+            </div>
+
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>E-MoTchi:</strong> Developed an NLP model for Emoji-Mandarin translation using Transformer models.</li>
+                <li><strong>Bubblo:</strong> Designed a 2D web game using C# and Unity, contributing 180+ commits.</li>
+                <li><strong>Benign Workload Generator:</strong> Created a Unix-based log simulation and cybersecurity data generator.</li>
+                <li><strong>Bandwitch:</strong> Worked on a network monitoring proxy server using Python and JavaScript.</li>
+                <li><strong>Windows Calculator:</strong> Developed a Windows application using C#/ASP.NET.</li>
+            </ul>
+
+            <h2>Skills & Languages</h2>
+            <ul>
+                <li><strong>Skills:</strong> Project Management, Web Development, Research</li>
+                <li><strong>Programming Languages:</strong> JavaScript, Python, C/C++, C#/ASP.NET</li>
+                <li><strong>Languages:</strong> Mandarin (Native), English (Working Ability)</li>
+            </ul>
+
+            <h2>Interests</h2>
+            <p>Volleyball (Former Captain of the department team)</p>
+
+            <h2>Random Quote</h2>
+            <p id="random-quote">Click the button for inspiration!</p>
+            <button id="new-quote">Generate Quote</button>
+        </div>
+
+        <div id="media" class="section">
+            <h1>Media Display</h1>
+            <h2>Watch This Video</h2>
+            <video controls>
+                <source src="./src/sample.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+            <h2>Listen to Music</h2>
+            <audio controls>
+                <source src="./src/sample.mp3" type="audio/mp3">
+                Your browser does not support audio playback.
+            </audio>
+        </div>
+
+        <div id="feedback" class="section">
+            <h1>Give Us Your Feedback</h1>
+            <form id="feedback-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Feedback" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="feedback-response"></p>
+        </div>
+    </div>
+
+    <script src="navigation.js"></script>
+    <script src="interactions.js"></script>
+</body>
+</html>
