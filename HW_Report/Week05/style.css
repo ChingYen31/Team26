@@ -1,0 +1,125 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  color: #333;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Headings & Text */
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Containers */
+#login-screen, #app-screen {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Inputs & Form */
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Clock Display */
+.clock {
+  text-align: center;
+  font-weight: 600;
+  color: #2980b9;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Todo List */
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#todo-list li {
+  background: #fefefe;
+  border-left: 6px solid #3498db;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+#todo-list li:hover {
+  transform: translateY(-2px);
+}
+
+/* Form Headings */
+form h3 {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }
