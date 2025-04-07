@@ -13,7 +13,9 @@ Which returns a greeting message:
 ```
 Hello my name is [MyName]
 ```
+
 Where [MyName] is set by a function variable.
+
 ---
 
 ## 📦 Project Features
