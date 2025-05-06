@@ -47,6 +47,7 @@ pip install django
 From the project root directory:
 
 ```bash
+cd myUrl
 python3 manage.py runserver
 ```
 
